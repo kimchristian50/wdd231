@@ -93,6 +93,7 @@ header span {
 h1 {
     margin-left: 10px;
     color: var(--primary-color);
+    font-size: 1.2rem;
 }
 
 .content {
@@ -108,7 +109,7 @@ main section {
 
 main section h2 {
     background-color: var(--accent-color);
-    color: white;
+    color: var(--primary-color);
     padding: 5px;
     text-align: center;
     font-size: 1.2rem;
@@ -188,7 +189,7 @@ footer {
     display: flex;
     justify-content: center;
     column-gap: 8px;
-    background-color: white;
+    background-color: var(--white);
     padding: 10px;
 }
 
