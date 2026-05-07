@@ -1,0 +1,219 @@
+/* --------------- Color Scheme ---------------*/
+:root {
+    /* palate from https: //coolors.co/palettes/trending - "serene blue" */
+    --accent-color: #6096ba;
+    --accent1-color: #274c77;
+    --accent3-color: #a3cef1;
+    --accent2-color: #8b8c89;
+    --accent4-color: #e7ecef;
+    --primary-color: #1b263b;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+/* -------------- Site Wide --------------------*/
+* {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+/**************** Header ***********************/
+header {
+    display: grid;
+    grid-template-columns: 30px auto 44px;
+    padding: 5px 0 5px 10px;
+    border-bottom: solid 1px var(--accent4-color);
+    column-gap: 8px;
+    align-items: end;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+header span {
+    font-size: 1.2rem;
+    color: var(--primary-color);
+}
+
+/****************** Hamburger  *****************/
+.hamburger {
+    background: none;
+    border: none;
+    color: var(--primary-color);
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hamburger::before {
+    content: "\2630";
+    font-size: 2rem;
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+}
+
+/*************** Navigation  ***********************/
+.navigation {
+    display: none;
+}
+
+.navigation.show {
+    display: block;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation a {
+    display: block;
+    padding: .8rem 10px;
+    color: var(--primary-color);
+    text-decoration: none;
+    border-bottom: solid 1px var(--accent4-color);
+}
+
+.navigation a:hover {
+    background-color: var(--accent3-color);
+}
+
+.navigation li.current a {
+    background-color: var(--accent4-color);
+}
+
+
+/*************** main sections ******************/
+
+h1 {
+    margin-left: 10px;
+    color: var(--primary-color);
+}
+
+.content {
+    display: grid;
+}
+
+main section {
+    background-color: var(--accent4-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section h2 {
+    background-color: var(--accent-color);
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+main section p {
+    margin: 10px;
+}
+
+main section img {
+    border: 10px solid var(--white);
+    background-color: var(--accent-color);
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.class-type {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.class-type button {
+    flex: 1;
+    padding: 10px;
+    background-color: var(--accent1-color);
+    color: var(--white);
+    border: 1px solid var(--accent-color);
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.courses {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    margin-top: 1rem;
+    /* margin-bottom: 1rem; */
+    width: 100%;
+}
+
+.courses section {
+    padding: 10px;
+    width: 100%;
+    background-color: var(--accent3-color);
+}
+
+.courses section h3 {
+    margin: 0 auto;
+}
+
+#courses-h3 {
+    font-weight: lighter;
+    font-size: 1rem;
+    font-style: italic;
+    margin: 10px;
+}
+
+.courses .completed {
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+}
+
+
+
+/**************** Footer ***********************/
+footer {
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+    background-color: white;
+    padding: 10px;
+}
+
+.social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border: var(--accent4-color) solid 1px;
+    border-radius: 22px;
+}
+
+.social img {
+    width: 22px;
+    height: 22px;
+}
+
+.social a:hover {
+    background-color: var(--accent3-color);
+}
+
+.footerdates {
+    background-color: var(--accent1-color);
+    color: var(--white);
+    padding: 10px;
+    width: 100%;
+}
