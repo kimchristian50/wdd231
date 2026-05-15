@@ -1,0 +1,67 @@
+{
+    "businesses": [
+        {
+            "name": "Albuquerque Tortilla Company",
+            "address": "4300 Alexander Blvd NE, Albuquerque, NM 87107",
+            "phone": "505-344-4011",
+            "url": "https://www.nmgastronome.com/",
+            "imagefile": "images/albuquerque-tortilla.webp",
+            "membership level": 2,
+            "other": ""
+        },
+        {
+            "name": "Roadrunner Beauty & Spa",
+            "address": "8201 Golf Course Rd NW Suite 4, Albuquerque, NM 87120",
+            "phone": "505-890-4070",
+            "url": "https://www.roadrunnerspa.com/",
+            "imagefile": "images/roadrunner.webp",
+            "membership level": 1,
+            "other": ""
+        },
+        {
+            "name": "Sandia National Laboratories",
+            "address": "1611 Innovation Pkwy SE, Albuquerque, NM 87123",
+            "phone": "505-844-4902",
+            "url": "https://sandia.gov/",
+            "imagefile": "images/sandia-labs.webp",
+            "membership level": 3,
+            "other": ""
+        },
+        {
+            "name": "Nusenda Credit Union",
+            "address": "3200 La Orilla Rd NW C-1, Albuquerque, NM 87120",
+            "phone": "505-889-7755",
+            "url": "https://nusenda.org/",
+            "imagefile": "images/nusenda.webp",
+            "membership level": 1,
+            "other": ""
+        },
+        {
+            "name": "Indian Pueblo Cultural Center",
+            "address": "2401 12th St NW, Albuquerque, NM 87104",
+            "phone": "505-843-7270",
+            "url": "https://indianpueblo.org/",
+            "imagefile": "images/indian-pueblo-cultural-center.webp",
+            "membership level": 2,
+            "other": ""
+        },
+        {
+            "name": "Mesa Del Sol Realty",
+            "address": "5700 University Blvd SE #310, Albuquerque, NM 87106",
+            "phone": "505-452-2600",
+            "url": "https://mesadelsolnm.com/",
+            "imagefile": "images/mesa-del-sol.webp",
+            "membership level": 2,
+            "other": ""
+        },
+        {
+            "name": "Los Poblanos Historic Inn",
+            "address": "4803 Rio Grande Blvd NW, Los Ranchos De Albuquerque, NM 87107",
+            "phone": "505-985-5000",
+            "url": "https://lospoblanos.com/",
+            "imagefile": "images/los-poblanos.webp",
+            "membership level": 2,
+            "other": ""
+        }
+    ]
+}
