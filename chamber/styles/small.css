@@ -143,6 +143,12 @@ h2 {
     border-bottom: 1px solid var(--accent2-color);
 }
 
+.toggle-menu button img {
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+
 #grid,
 #list {
     padding: 5px;
