@@ -7,19 +7,17 @@
     <title>WDD 231 - Pam Christison - Chamber of Commerce ~ Directory</title>
     <meta name="description" content="Pam Christison | WDD 231 | Chamber of Commerce directory page">
     <meta name="author" content="Pam Christison">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <meta property="og:title" content="Chamber of Commerce - directory page - WDD 231">
     <meta property="og:description" content="Chamber of Commerce directory page for Albuquerque, New Mexico.">
     <meta property="og:image" content="https://kimchristian50.github.io/wdd231/chamber/images/logo.webp">
     <meta property="og:url" content="https://kimchristian50.github.io/wdd231/chamber">
     <link rel="icon" href="images/favicon.ico">
-
-    <!-- style sheets go here -->
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/larger.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <script src="scripts/dates.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/businesses.js" defer></script>
@@ -29,7 +27,7 @@
 
 <body>
     <header>
-        <img src="images/logo.webp" alt="Site Logo" width="300" height="243">
+        <img src="images/logo.webp" alt="Site Logo" width="300" height="243" fetchpriority="high">
         <span>Albuquerque Chamber of Commerce</span>
         <nav id="nav-bar" class="navigation">
             <ul>
@@ -46,11 +44,13 @@
     <main>
         <h1>Directory</h1>
         <div class="toggle-menu">
-            <button id="grid" aria-label="Grid view"><img src='images/grid.svg' alt='Grid view' height="67" width="67"></button>
-            <button id="list" aria-label="List view"><img src='images/list.svg' alt='List view' height="67" width="67"></button>
+            <button id="grid" aria-label="Grid view"><img src='images/grid.svg' alt='Grid view' height="67"
+                    width="67"></button>
+            <button id="list" aria-label="List view"><img src='images/list.svg' alt='List view' height="67"
+                    width="67"></button>
         </div>
         <div id="cards" class="grid">
-            
+
         </div>
 
     </main>

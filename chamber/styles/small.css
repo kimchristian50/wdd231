@@ -161,6 +161,7 @@ h2 {
     grid-gap: 0.5rem;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     margin: 10px 10px 20px 10px;
+    min-height: 500px;
 }
 
 .grid section {

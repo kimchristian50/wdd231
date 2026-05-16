@@ -4,7 +4,7 @@ const cards = document.querySelector('#cards');
 async function getBusinessData() {
     const response = await fetch(file); // request
     const data = await response.json(); // parse the JSON data
-    // console.table(data.businesses); // temp output test of data response 
+    // console.table(data.businedsses); // temp output test of data response 
     displayBusinesses(data.businesses);
 }
 
