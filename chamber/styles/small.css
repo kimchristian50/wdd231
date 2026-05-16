@@ -117,6 +117,11 @@ header span {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
+.navigation li.current a {
+    background-color: rgba(255, 255, 255, 0.2);
+    font-weight: bold;
+    border-bottom: 2px solid var(--accent1-color);
+}
 
 /*************** main section ******************/
 h1 {
