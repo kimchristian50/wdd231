@@ -6,7 +6,7 @@
     --primary-color: #540b0e;
     --accent-color: #023047;
     --accent1-color: #e09f3e;
-    --accent3-color: #bc6c25;
+    --accent3-color: #e99a54;
     --accent2-color: #cfd0ce;
     --accent4-color: #780000;
     --accent5-color: #afb0ae;
@@ -36,8 +36,9 @@ header {
 
 header img {
     display: block;
-    width: 100%;
-    height: auto;
+    width: 80px;
+    height: 65px;
+    aspect-ratio: 80 / 65;
 }
 
 header span {
@@ -135,6 +136,19 @@ h2 {
     text-align: center;
     margin-top: 0px;
     color: var(--accent4-color);
+}
+
+#cards {
+    display: grid;
+    min-height: 800px;
+}
+
+#cards section img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    object-fit: contain;
 }
 
 .toggle-menu {

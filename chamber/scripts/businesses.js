@@ -30,8 +30,8 @@ const displayBusinesses = (businesses) => {
         image.setAttribute('src', business.imagefile);
         image.setAttribute('alt', `Logo for ${business.name} in Albuquerque NM`);
         image.setAttribute('loading', 'lazy');
-        image.setAttribute('width', '340');
-        image.setAttribute('height', '440');
+        image.setAttribute('width', '200');
+        image.setAttribute('height', '150');
 
         // append the section (card) with the created elements
         card.appendChild(image);
