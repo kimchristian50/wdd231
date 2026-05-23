@@ -1,0 +1,36 @@
+/* --------------- Color Scheme ---------------*/
+:root {
+    /* palate from https: //coolors.co/palettes/trending - "serene blue" */
+    --accent-color: #6096ba;
+    --accent1-color: #274c77;
+    --accent3-color: #a3cef1;
+    --accent2-color: #b6b7b4;
+    --accent4-color: #e7ecef;
+    --primary-color: #1b263b;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+.card {
+    border: 1px solid var(--primary-color);
+    background-color: var(--accent4-color);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card h2 {
+    color: var(--accent-color);
+    margin: 0.3rem 0;
+}
+
+.card #description {
+    text-transform: capitalize;
+    color: var(--accent1-color);
+    margin: 0.3rem 0;
+}
+
+.card #temperature {
+    font-size: 2rem;
+    color: var(--accent1-color);
+    margin: 0.3rem 0;
+}

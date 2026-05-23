@@ -8,6 +8,8 @@
         margin: 0 auto;
     }
 
+    /**************** Header ***********************/
+
     header {
         grid-template-columns: 80px auto 1fr 50px;
     }
@@ -41,11 +43,52 @@
         border-bottom: 2px solid white;
     }
 
+    /**************** Main ***********************/
+    .hero {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 10px;
+    }
+
+    .hero img {
+        grid-column: 1 / 4;
+        grid-row: 1 / 4;
+        z-index: 0;
+    }
+
+    .cta {
+        grid-column: 3 / 4;
+        grid-row: 3 / 4;
+        z-index: 1;
+    }
+
+    .home-middle-layout {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        gap: 0.5rem;
+        align-items: stretch;
+    }
+
+    #spotlight-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 1rem;
+        min-height: unset;
+    }
+
+    .current-weather-card {
+        gap: 5px;
+    }
+
+    .current-weather p {
+        font-size: 0.8rem;
+    }
+
+    /**************** Footer ***********************/
+
     footer {
         grid-template-columns: 1fr 1fr 1fr;
     }
-
-
-
 
 }

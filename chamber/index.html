@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 231 - Pam Christison - Chamber of Commerce ~ Directory</title>
+    <meta name="description" content="Pam Christison | WDD 231 | Chamber of Commerce home page">
+    <meta name="author" content="Pam Christison">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&text=Albuquerque%20Chamber%20of%20CommerceDirectoryHomeJoinDiscover&display=swap"
+        rel="stylesheet">
+    <meta property="og:title" content="Chamber of Commerce - home page - WDD 231">
+    <meta property="og:description" content="Chamber of Commerce home page for Albuquerque, New Mexico.">
+    <meta property="og:image" content="https://kimchristian50.github.io/wdd231/chamber/images/logo.webp">
+    <meta property="og:url" content="https://kimchristian50.github.io/wdd231/chamber">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/dates.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/spotlight.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+
+
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.webp" alt="Site Logo" width="80" height="65" fetchpriority="high">
+        <span>Albuquerque Chamber of Commerce</span>
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li class="current"><a href="https://kimchristian50.github.io/wdd231/chamber/index.html">Home</a></li>
+                <li><a href="https://kimchristian50.github.io/wdd231/chamber/directory.html">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Discover</a></li>
+            </ul>
+        </nav>
+        <button id="mode" class="mode-toggle" title="Toggle Dark Mode"></button>
+        <button id="ham-btn" class="hamburger" aria-label="Main Menu"></button>
+    </header>
+
+    <main>
+        <div class="hero">
+            <img src="images/hero.webp" alt="Sandia mountains at sunset as seen from the Rio Grande" width="1000"
+                height="500">
+            <a href="join.html" class="cta">
+                <div class="cta-text">
+                    <h2>Join Us</h2>
+                </div>
+            </a>
+        </div>
+
+        <h1>Home</h1>
+        <div class="home-middle-layout">
+            <div class="current-events">
+                <h2>Events</h2>
+                <p></p>
+            </div>
+
+            <div class="current-weather">
+                <h2>Current Weather</h2>
+                <div class="current-weather-card">
+                    <img id="weathergraphic" src="" alt="">
+                    <div class="weather-info">
+                        <p id="currenttemp"></p>
+                        <p id="description"></p>
+                        <p id="temperaturehigh"></p>
+                        <p id="temperaturelow"></p>
+                        <p id="humidity"></p>
+                        <p id="sunrise"></p>
+                        <p id="sunset"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="weather-forecast">
+                <h2>Weather Forecast</h2>
+                <div class="weather-forecast-card">
+                    <p id="hoy"></p>
+                    <p id="nextday"></p>
+                    <p id="twodays"></p>
+                </div>
+            </div>
+        </div>
+        <div id="spotlight-container" class="grid">
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="contact">
+            <p>Albuquerque Chamber of Commerce</p>
+            <p>6121 Sierra Linda Ave NW</p>
+            <p>Albuquerque, NM 87120</p>
+            <p>info@abqcc.org</p>
+            <p>505-792-9374</p>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/pam.christison/" target="_blank"><img src="images/facebook.svg"
+                    alt="Facebook icon" width="16" height="16"></a>
+            <a href="https://www.linkedin.com/in/pamchristison/" target="_blank"><img src="images/linkedin.svg"
+                    alt="LinkedIn icon" width="16" height="16"></a>
+            <a href="https://youtube.com" target="_blank"><img src="images/youtube.svg" alt="Youtube icon" width="16"
+                    height="16"></a>
+        </div>
+        <div class="footerdates">
+            <p>WDD231 Class Project</p>
+            <p>Pam Christison</p>
+            <p>&copy; <span id="currentyear"></span> - Albuquerque Chamber of Commerce</p>
+            <p><span id="lastModified"></span></p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

@@ -6,8 +6,9 @@
             "phone": "505-344-4011",
             "url": "https://www.nmgastronome.com/",
             "imagefile": "images/albuquerque-tortilla.webp",
-            "membership level": 2,
-            "other": ""
+            "level": 2,
+            "other": "Full Line of Mexican Foods",
+            "email": "hello@abqtortilla.com"
         },
         {
             "name": "Roadrunner Beauty & Spa",
@@ -15,8 +16,9 @@
             "phone": "505-890-4070",
             "url": "https://www.roadrunnerspa.com/",
             "imagefile": "images/roadrunner.webp",
-            "membership level": 1,
-            "other": ""
+            "level": 1,
+            "other": "",
+            "email": "roadrunnerbeautyspa@gmail.com"
         },
         {
             "name": "Sandia National Laboratories",
@@ -24,8 +26,9 @@
             "phone": "505-844-4902",
             "url": "https://sandia.gov/",
             "imagefile": "images/sandia-labs.webp",
-            "membership level": 3,
-            "other": ""
+            "level": 3,
+            "other": "Exceptional Service in the National Interest",
+            "email": "info@sandia.gov"
         },
         {
             "name": "Nusenda Credit Union",
@@ -33,8 +36,9 @@
             "phone": "505-889-7755",
             "url": "https://nusenda.org/",
             "imagefile": "images/nusenda.webp",
-            "membership level": 1,
-            "other": ""
+            "level": 1,
+            "other": "",
+            "email": "info@nusenda.org"
         },
         {
             "name": "Indian Pueblo Cultural Center",
@@ -42,8 +46,9 @@
             "phone": "505-843-7270",
             "url": "https://indianpueblo.org/",
             "imagefile": "images/indian-pueblo-cultural-center.webp",
-            "membership level": 2,
-            "other": ""
+            "level": 2,
+            "other": "A Return to Culture",
+            "email": "info@indianpueblo.org"
         },
         {
             "name": "Mesa Del Sol Realty",
@@ -51,8 +56,9 @@
             "phone": "505-452-2600",
             "url": "https://mesadelsolnm.com/",
             "imagefile": "images/mesa-del-sol.webp",
-            "membership level": 2,
-            "other": ""
+            "level": 2,
+            "other": "Sustainable Living",
+            "email": "info@mesadelsolabq.com"
         },
         {
             "name": "Los Poblanos Historic Inn",
@@ -60,8 +66,9 @@
             "phone": "505-985-5000",
             "url": "https://lospoblanos.com/",
             "imagefile": "images/los-poblanos.webp",
-            "membership level": 2,
-            "other": ""
+            "level": 2,
+            "other": "Historic Inn & Organic Farm",
+            "email": "info@lospoblanos.com"
         }
     ]
 }
