@@ -5,7 +5,7 @@
     /* palate from https: //coolors.co/palettes/trending - "serene blue" */
     --primary-color: #540b0e;
     --accent-color: #023047;
-    --accent1-color: #e09f3e;
+    --accent1-color: #f0af4d;
     --accent3-color: #e99a54;
     --accent2-color: #cfd0ce;
     --accent4-color: #780000;
@@ -453,6 +453,251 @@ section>img {
 
 .spotlight-contact span {
     font-weight: bold;
+}
+
+/*************** Join Page *********************/
+#form-levels-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+form {
+    /* margin: 1rem 2%; */
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background-color: var(--background-color);
+}
+
+form fieldset {
+    border: 1px solid var(--accent5-color);
+    border-radius: 8px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+form label {
+    display: block;
+    font-size: .8rem;
+    color: var(--black);
+    padding-top: .2rem;
+}
+
+form h2 {
+    text-align: left;
+}
+
+form h3 {
+    font-size: .9rem;
+    color: var(--accent4-color);
+    margin: 1.5rem 0 .2rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+form input[type=text],
+form input[type=tel],
+form input[type=date],
+form input[type=email],
+form select {
+    display: block;
+    width: 100%;
+    margin: .1rem 0 1rem 0;
+    padding: .3rem;
+    border: 1px solid #999;
+    border-radius: 4px;
+    border-left-width: 5px;
+    border-left-color: #555;
+    font-size: 1rem;
+    color: var(--accent-color);
+    width: 250px;
+}
+
+form input[type=radio] {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    cursor: pointer;
+}
+
+form label:has(input[type=radio]) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.75rem;
+    cursor: pointer;
+    min-height: 44px;
+    padding: 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+form textarea {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    min-width: 300px;
+    color: var(--black);
+    font-weight: normal;
+}
+
+#org-description {
+    margin-top: 1rem;
+    font-weight: bold;
+    color: var(--accent4-color);
+    font-size: 1rem;
+}
+
+form input:required {
+    border-left-color: var(--accent4-color);
+}
+
+form input:focus {
+    border-left-color: black;
+    outline: none;
+}
+
+form input:required:valid {
+    border-left-color: var(--accent5-color);
+}
+
+form input[type=submit] {
+    border: 2px solid var(--accent1-color);
+    text-align: center;
+    background-color: var(--accent-color);
+    color: var(--white);
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 2rem 0;
+    font-size: 1.2rem;
+    box-shadow: 0px 0px 5px gray;
+    cursor: pointer;
+}
+
+#results {
+    background-color: var(--background-color);
+    padding: 0 1rem;
+    border: 1px solid var(--accent3-color);
+    border-radius: 6px;
+    margin: 1rem;
+}
+
+#levels-container {
+    text-align: center;
+    align-self: flex-start;
+}
+
+#levels-container div {
+    padding: 2rem;
+    border: 1px solid var(--accent4-color);
+    border-radius: 12px;
+    margin: 1rem 0;
+    background-color: var(--accent1-color);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    /*----animation setup-----*/
+    animation: slide-up 1s ease-out forwards;
+    /* animation: fade-pop 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) forwards; */
+}
+
+@keyframes slide-up {
+    from {
+        opacity: 0;
+        translate: 0 50px;
+    }
+
+    to {
+        opacity: 1;
+        translate: 0 0;
+    }
+}
+
+/* @keyframes fade-pop {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+} */
+
+/* a short cascade delay so the cards pop up one after another */
+#levels-container div:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+#levels-container div:nth-child(2) {
+    animation-delay: 0.3s;
+}
+
+#levels-container div:nth-child(3) {
+    animation-delay: 0.5s;
+}
+
+#levels-container div:nth-child(4) {
+    animation-delay: 0.7s;
+}
+
+#levels-container div h2 {
+    font-size: 1.25rem;
+    color: var(--primary-color);
+    font-style: italic;
+}
+
+#openButtonNp,
+#openButtonBronze,
+#openButtonSilver,
+#openButtonGold {
+    border: 2px solid var(--accent1-color);
+    text-align: center;
+    background-color: var(--accent-color);
+    color: var(--white);
+    border-radius: 1rem;
+    padding: 0.75rem 1.5rem;
+    box-shadow: 0px 0px 5px gray;
+    cursor: pointer;
+}
+
+#dialogBox {
+    border: 1px solid var(--accent4-color);
+    color: var(--primary-color);
+    border-radius: 10px;
+    padding: 0;
+}
+
+#dialogBox .dialog-content {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+
+#dialogBox p {
+    font-weight: bold;
+}
+
+#closeButton {
+    text-align: center;
+    background-color: var(--accent-color);
+    color: var(--white);
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    box-shadow: 0px 0px 5px gray;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+#closeButton:focus {
+    outline: 2px solid var(--accent3-color);
+    outline-offset: 2px;
 }
 
 /**************** Footer ***********************/

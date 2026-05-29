@@ -84,6 +84,19 @@ const allLink = document.querySelector("#all");
 const cseLink = document.querySelector("#cse");
 const wddLink = document.querySelector("#wdd");
 
+// get a reference to the html dialog elements
+const courseDetails = document.querySelector("#course-details")
+const mycode = document.querySelector("#course-details h2")
+const mytitle = document.querySelector("#course-details h3")
+const mycredits = document.querySelector("#my-credits")
+const mycertificate = document.querySelector("#my-certificate")
+const mydescription = document.querySelector("#my-description")
+const mytechnology = document.querySelector("#my-technology")
+const myclose = document.querySelector("#course-details button")
+
+// add an event listener so the dialog button will close
+myclose.addEventListener("click", () => courseDetails.close())
+
 allLink.addEventListener("click", () => {
     createCourseCard(courses);
 });
@@ -121,7 +134,20 @@ function createCourseCard(filteredCourses) {
         card.appendChild(name);
         document.querySelector("#courses").appendChild(card);
 
+        // add an eventlistener so that someone can click on the card and get the modal dialog
+        card.addEventListener('click', () => showStuff(course));
     });
 };
+
+// display the modal dialog
+function showStuff(course) {
+    mycode.innerHTML = `${course.subject}${course.number}`
+    mytitle.innerHTML = course.title
+    mycredits.innerHTML = `${course.credits} credits`
+    mycertificate.innerHTML = `Certificate: ${course.certificate}`
+    mydescription.innerHTML = `${course.description}`
+    mytechnology.innerHTML = `Technology: ${course.technology}`
+    courseDetails.showModal()
+}
 
 

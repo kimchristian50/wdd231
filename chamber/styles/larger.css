@@ -85,6 +85,13 @@
         font-size: 0.8rem;
     }
 
+    #form-levels-container {
+        grid-template-columns: 1.2fr 0.8fr;
+        gap: 2.5rem;
+        max-width: 1100px;
+        align-items: start;
+    }
+
     /**************** Footer ***********************/
 
     footer {

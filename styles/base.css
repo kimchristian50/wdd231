@@ -218,3 +218,49 @@ footer {
     padding: 10px;
     width: 100%;
 }
+
+/******************modal dialogue ************************/
+dialog {
+    border-radius: 0.25px;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 3rem #777;
+    width: 90%
+    max-width: 600px;
+}
+
+#course-details div {
+    display: grid;
+    grid-template-columns: auto 44px;
+    background-color: var(--accent1-color);
+    padding: 5px;
+    border-bottom: #aaa 1px solid;
+}
+
+#course-details h2 {
+    margin: 0;
+    color: var(--white);
+    justify-items: center;
+    padding: 0.5rem;
+}
+
+#course-details h3 {
+    margin-top: 1rem;
+}
+
+dialog button {
+    margin: 0;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    box-shadow: 0 0 10px #aaa;
+}
+
+#course-details p {
+    padding: 2px;
+    color: #375170
+}
+
+::backdrop {
+    background-color: rgb(0 0 0 / 50%);
+}

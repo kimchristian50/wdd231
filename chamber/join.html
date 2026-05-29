@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 231 - Pam Christison - Chamber of Commerce ~ Membership Join</title>
+    <meta name="description" content="Pam Christison | WDD 231 | Chamber of Commerce Membership Join page">
+    <meta name="author" content="Pam Christison">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta property="og:title" content="Chamber of Commerce - Membership Join Page - WDD 231">
+    <meta property="og:description" content="Chamber of Commerce Membership Joining page for Albuquerque, New Mexico.">
+    <meta property="og:image" content="https://kimchristian50.github.io/wdd231/chamber/images/logo.webp">
+    <meta property="og:url" content="https://kimchristian50.github.io/wdd231/chamber/join.html">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/dates.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/modals.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.webp" alt="Site Logo" width="80" height="65" fetchpriority="high">
+        <span>Albuquerque Chamber of Commerce</span>
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li><a href="https://kimchristian50.github.io/wdd231/chamber/index.html">Home</a></li>
+                <li><a href="https://kimchristian50.github.io/wdd231/chamber/directory.html">Directory</a></li>
+                <li class="current"><a href="https://kimchristian50.github.io/wdd231/chamber/join.html">Join</a></li>
+                <li><a href="https://kimchristian50.github.io/wdd231/chamber/discover.html">Discover</a></li>
+            </ul>
+        </nav>
+        <button id="mode" class="mode-toggle" title="Toggle Dark Mode"></button>
+        <button id="ham-btn" class="hamburger" aria-label="Main Menu"></button>
+    </header>
+
+    <main>
+        <h1>Join the Albuquerque Chamber of Commerce</h1>
+        <div id="form-levels-container">
+            <form method="GET" action="thankyou.html" class="form">
+                <fieldset class="fieldset-1">
+                    <h2>Membership Application Form</h2>
+                    <label for="first">First Name <input type="text" name="first" required autocomplete="given-name"
+                            title="Your First Name" id="first"></label>
+                    <label for="last">Last Name <input type="text" name="last" required autocomplete="family-name"
+                            title="Your Last Name" id="last"></label>
+                    <label for="org-title">Organizational Title
+                        <input type="text" name="org-title" autocomplete="organization-title" required
+                            pattern="[A-Za-z\s\-]{7,}"
+                            title="Your Organizational Title - minimum 7 characters. Only letters, hyphens, and spaces allowed."
+                            id="org-title">
+                    </label>
+                    <label for="email">Email <input type="email" name="email" required placeholder="anyone@gmail.com"
+                            title="Your Email" autocomplete="email" id="email"></label>
+                    <label for="phone">Mobile Phone Number <input type="tel" name="phone" autocomplete="tel"
+                            title="A Phone Number with dashes" id="phone" placeholder="505-123-4567"></label>
+                    <label for="org-name">Business/Organization Name <input type="text" name="org-name"
+                            autocomplete="organization" required title="Your Business or Organization Name"
+                            id="org-name"></label>
+                </fieldset>
+                <fieldset class="fieldset-2">
+                    <h3>Select Membership level</h3>
+                    <label><input type="radio" name="level" value="np" id="level-np"> Non-profit</label>
+                    <label><input type="radio" name="level" value="bronze" id="level-bronze"> Bronze</label>
+                    <label><input type="radio" name="level" value="silver" id="level-silver"> Silver</label>
+                    <label><input type="radio" name="level" value="gold" id="level-gold"> Gold</label>
+                    <label for="org-description">Business/Organization Description</label>
+                    <textarea name="org-description" rows="4" title="Description of Your Business or Organization"
+                        id="org-description"></textarea>
+                    <input id="timestamp" type="hidden" name="timestamp">
+                </fieldset>
+                <input type="submit" value="Join Now">
+            </form>
+            <div id="levels-container">
+                <div>
+                    <h2>Non-Profit Membership Level</h2>
+                    <button id="openButtonNp">Learn More</button>
+                </div>
+                <div>
+                    <h2>Bronze Membership Level</h2>
+                    <button id="openButtonBronze">Learn More</button>
+                </div>
+                <div>
+                    <h2>Silver Membership Level</h2>
+                    <button id="openButtonSilver">Learn More</button>
+                </div>
+                <div>
+                    <h2>Gold Membership Level</h2>
+                    <button id="openButtonGold">Learn More</button>
+                </div>
+            </div>
+        </div>
+        <dialog id="dialogBox">
+            <div class="dialog-content">
+                <div id="dialogText"></div>
+                <button id="closeButton">Close</button>
+            </div>
+        </dialog>
+    </main>
+
+    <footer>
+        <div class="contact">
+            <p>Albuquerque Chamber of Commerce</p>
+            <p>6121 Sierra Linda Ave NW</p>
+            <p>Albuquerque, NM 87120</p>
+            <p>info@abqcc.org</p>
+            <p>505-792-9374</p>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/pam.christison/" target="_blank"><img src="images/facebook.svg"
+                    alt="Facebook icon" width="16" height="16"></a>
+            <a href="https://www.linkedin.com/in/pamchristison/" target="_blank"><img src="images/linkedin.svg"
+                    alt="LinkedIn icon" width="16" height="16"></a>
+            <a href="https://youtube.com" target="_blank"><img src="images/youtube.svg" alt="Youtube icon" width="16"
+                    height="16"></a>
+        </div>
+        <div class="footerdates">
+            <p>WDD231 Class Project</p>
+            <p>Pam Christison</p>
+            <p>&copy; <span id="currentyear"></span> - Albuquerque Chamber of Commerce</p>
+            <p><span id="lastModified"></span></p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
