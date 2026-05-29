@@ -516,7 +516,6 @@ form select {
     border-left-color: #555;
     font-size: 1rem;
     color: var(--accent-color);
-    width: 250px;
 }
 
 form input[type=radio] {
