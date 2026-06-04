@@ -34,6 +34,28 @@ header span {
     font-family: "Lora", serif;
     font-size: 1.5rem;
     font-weight: bold;
+    background-color: var(--accent4-color);
+    color: var(--black);
+    padding: 2rem;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 80px 1fr 30px 44px;
+    /* padding: 5px 0 5px 10px; */
+    padding: 5px 10px;
+    border-bottom: solid 1px var(--accent4-color);
+    column-gap: 8px;
+    align-items: center;
+    background-color: var(--accent4-color);
+    color: var(--white);
+}
+
+header img {
+    display: block;
+    width: 80px;
+    height: 65px;
+    aspect-ratio: 80 / 65;
 }
 
 .typography {
@@ -53,4 +75,15 @@ main div {
 main div p,
 main div li {
     text-align: left;
+}
+
+footer div {
+    background-color: var(--accent1-color);
+    padding: 1rem;
+}
+
+footer div p {
+    background-color: var(--accent1-color);
+    color: white;
+    text-align: center;
 }
