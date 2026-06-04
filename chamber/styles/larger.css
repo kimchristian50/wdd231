@@ -1,4 +1,4 @@
-@media only screen and (min-width: 38rem) {
+@media only screen and (min-width: 64rem) {
 
     header,
     main,
@@ -90,6 +90,11 @@
         gap: 2.5rem;
         max-width: 1100px;
         align-items: start;
+    }
+
+    #allPlaces {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
     /**************** Footer ***********************/

@@ -2,11 +2,55 @@
     /* palate from https: //coolors.co/palettes/trending - "serene blue" */
     --primary-color: #300f35;
     --accent-color: #8cb369;
-    --accent1-color: #f4e285;
-    --accent3-color: #f4a259;
-    --accent2-color: #5b8e7d;
-    --accent4-color: #bc4b51;
-    --background-color: #fefee3;
+    --accent1-color: #70adc2;
+    --accent3-color: #f2cba0;
+    --accent2-color: #11588e;
+    --accent4-color: #ff8787;
+    --background-color: #ffffee;
     --white: #ffffff;
     --black: #000000;
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    color: var(--primary-color);
+    background-color: var(--background-color);
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Lora", serif;
+    text-align: center;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+}
+
+header span {
+    font-family: "Lora", serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.typography {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main div {
+    text-align: center;
+}
+
+main div p,
+main div li {
+    text-align: left;
 }

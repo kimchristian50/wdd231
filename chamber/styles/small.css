@@ -699,6 +699,43 @@ form input[type=submit] {
     outline-offset: 2px;
 }
 
+/**************** Discovery page **************/
+#allPlaces div {
+    margin: 1rem 8px;
+    border: 1px solid var(--accent3-color);
+    background-color: var(--background-color);
+    border-radius: 8px;
+    overflow: hidden;
+
+    display: grid;
+    grid-template-areas:
+    "name"
+    "photograph"
+    "description"
+    "address";
+}
+
+#allPlaces div h2 {
+    margin: 1rem 10px;
+    grid-area: name;
+}
+
+#allPlaces div img {
+    width: 100%;
+    grid-area: photograph;
+}
+
+#allPlaces div p {
+    margin: 1rem 10px;
+    grid-area: description;
+}
+
+#allPlaces div address {
+    margin: 1rem 10px;
+    grid-area: address;
+}
+
+
 /**************** Footer ***********************/
 footer {
     display: grid;
