@@ -16,6 +16,8 @@ function displayItems(places) {
         thephoto.src = x.photo_url
         thephoto.alt = x.name
         thephoto.setAttribute("loading", "lazy")
+        thephoto.setAttribute("width", 300)
+        thephoto.setAttribute("height", 200)
         thephoto.setAttribute("class", "hover")
         theFigure.appendChild(thephoto)
         thecard.appendChild(theFigure)
