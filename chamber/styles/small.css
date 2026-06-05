@@ -707,33 +707,60 @@ form input[type=submit] {
     border-radius: 8px;
     overflow: hidden;
 
+    /* the magic to set up different layouts at different sizes */
     display: grid;
     grid-template-areas:
-    "name"
-    "photograph"
-    "description"
-    "address";
+        "name"
+        "photograph"
+        "description"
+        "address"
+        "button";
 }
 
 #allPlaces div h2 {
-    margin: 1rem 10px;
+    margin: 1rem 10px 0 10px;
     grid-area: name;
 }
 
-#allPlaces div img {
-    width: 100%;
+#allPlaces div figure {
     grid-area: photograph;
+    text-align: center;
+    margin: 10px;
 }
 
 #allPlaces div p {
-    margin: 1rem 10px;
+    margin: 10px 10px 10px 1rem;
     grid-area: description;
 }
 
 #allPlaces div address {
-    margin: 1rem 10px;
+    margin: 10px 10px 10px 1rem;
     grid-area: address;
 }
+
+#allPlaces div button {
+    background-color: var(--accent4-color);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#allPlaces div a {
+    background-color: var(--accent4-color);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin: 1rem;
+    grid-area: button;
+    cursor: pointer;
+    text-align: center;
+}
+
+#today {
+    text-align: center;
+    font-weight: bold;
+}
+
 
 
 /**************** Footer ***********************/
