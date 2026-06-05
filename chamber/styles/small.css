@@ -737,7 +737,7 @@ form input[type=submit] {
 
 #allPlaces div figure img {
     aspect-ratio: 300 / 200;
-    width: 100;
+    width: 100%;
     height: auto;
 }
 
