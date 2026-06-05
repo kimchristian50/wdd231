@@ -34,13 +34,12 @@ function displayItems(places) {
         thedesc.innerText = x.description
         thecard.appendChild(thedesc)
         // build the button
-        const thelink = document.createElement('a')
-        thelink.setAttribute("href", x.website)
-        thelink.setAttribute("target", "_blank")
         const thebutton = document.createElement('button')
         thebutton.innerText = `Learn More`
-        thelink.appendChild(thebutton)
-        thecard.appendChild(thelink)
+        thebutton.addEventListener('click', () => {
+            window.open(x.website, '_blank', 'noopener,noreferrer')
+        })
+        thecard.appendChild(thebutton)
         // display the card
         showHere.appendChild(thecard)
         console.log(thecard)
@@ -87,7 +86,7 @@ if (lastVisit !== 0) {
         todayDisplay.textContent = `You last visited ${difference} day ago.`;
     }
     else {
-        todayDisplay.textContent = `You last visited ${difference} day ago.`;
+        todayDisplay.textContent = `You last visited ${difference} days ago.`;
     }
 } else {
     todayDisplay.textContent = `Welcome! Let us know if you have any questions.`;

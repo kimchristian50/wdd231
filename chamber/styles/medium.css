@@ -9,13 +9,17 @@
             "photograph button";
     }
 
-    #allPlaces img {
-        transition: scale 0.25s ease;
+    #allPlaces div figure img {
+        transition: transform 0.25s ease, border-radius 0.25s ease;
     }
 
-    .hover:hover {
-        scale: -1 1;
+    #allPlaces div figure img:hover {
+        transform: scaleX(-1);
         border-radius: 50px;
+    }
+
+    #allPlaces div h2, #allPlaces div p {
+        margin-bottom: 0;
     }
 
 }
