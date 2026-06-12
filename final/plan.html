@@ -17,8 +17,9 @@
     <link rel="icon" href="images/favicon.ico">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/larger.css">
-    <script src="scripts/dates.js" defer></script>
-    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/dates.js" type="module"></script>
+    <script src="scripts/navigation.js" type="module"></script>
+    <script src="scripts/plan.js" type="module"></script>
 </head>
 
 <body>
@@ -27,48 +28,35 @@
         <span>My Recipe Workbench</span>
         <nav id="nav-bar" class="navigation">
             <ul>
-                <li class="current"><a href="index.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="search.html">Search</a></li>
-                <li><a href="plan.html">Plan</a></li>
+                <li class="current"><a href="plan.html">Plan</a></li>
             </ul>
         </nav>
         <button id="ham-btn" class="hamburger" aria-label="Main Menu"></button>
     </header>
 
     <main>
-        <div class="hero">
-            <img src="images/hero.webp" alt="A family cooking together who obviously needs recipe help" width="1000"
-                height="500">
-        </div>
-        <h1>My Recipe Workbench</h1>
-        <p>Take your cooking from chaos to organization!</p>
-        <div class="main">
-            <a href="search.html" class="card-link">
-                <div class="search">
-                    <h2>Recipe Search</h2>
-                    <img src="images/search.webp" alt="A bowl of chicken tortilla soup" width="300" height="200"
-                        loading="lazy">
-                </div>
-            </a>
-            <a href="plan.html" class="card-link">
-                <div class="planner">
-                    <h2>Meal Planner</h2>
-                    <img src="images/plan.webp" alt="A plate of chicken caprese" width="300" height="200"
-                        loading="lazy">
-                </div>
-            </a>
-            <div id="form-levels-container">
-                <form method="GET" action="thankyou.html" class="form">
-                    <h2>Get Notifications When Recipes Are Added</h2>
-                    <label for="name">Name <input type="text" name="name" required autocomplete="name" title="Your Name"
-                            id="name"></label>
+        <h1>Plan</h1>
+        <p>Your selected recipes:</p>
 
-                    <label for="email">Email <input type="email" name="email" required placeholder="anyone@gmail.com"
-                            title="Your Email" autocomplete="email" id="email"></label>
-                    <input type="submit" value="Notify me">
-                </form>
-            </div>
+        <div id="listHere">
         </div>
+
+        <!-- One single dialog for all recipes -->
+        <dialog id="mydialog">
+            <div class="dialog-top">
+                <img alt="recipe photo placeholder" src="images/stuffed-potatoes.webp" width="300" height="210">
+                <div class="button-container">
+                    <button>Close X</button>
+                    <button id="recipeSelect">Select this Recipe</button>
+                    <h2>Sample Title</h2>
+                </div>
+            </div>
+            <ul></ul>
+            <ol></ol>
+        </dialog>
+
 
     </main>
     <footer>
