@@ -443,7 +443,7 @@ form input[type=submit] {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
     padding: 0;
     width: 90%;
-    max-width: 320px;
+    max-width: 550px;
     box-sizing: border-box;
 }
 
