@@ -43,6 +43,12 @@
         border-bottom: 2px solid white;
     }
 
+    .navigation li.current a {
+        font-weight: bold;
+        border: none;
+        border-bottom: solid 1px white;
+    }
+
     /**************** Main ***********************/
     .hero {
         display: grid;

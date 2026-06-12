@@ -9,16 +9,23 @@
             "photograph button";
     }
 
+    #allPlaces div figure {
+        perspective: 1000px;
+    }
+
     #allPlaces div figure img {
-        transition: transform 0.25s ease, border-radius 0.25s ease;
+        border-radius: 50px;
+        transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1), border-radius 0.4s ease;
+        transform-style: preserve-3d;
     }
 
     #allPlaces div figure img:hover {
-        transform: scaleX(-1);
+        transform: rotateY(180deg);
         border-radius: 50px;
     }
 
-    #allPlaces div h2, #allPlaces div p {
+    #allPlaces div h2,
+    #allPlaces div p {
         margin-bottom: 0;
     }
 
