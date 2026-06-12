@@ -65,5 +65,8 @@
         grid-gap: 1rem;
     }
 
+        #mydialog {
+            max-width: 550px;
+        }
 
 }
