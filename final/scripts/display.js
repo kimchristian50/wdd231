@@ -24,10 +24,9 @@ async function getRecipeData() {
         recipes = await response.json();
 
         // Print to the console to verify data landed safely
-        console.log("Recipes data array successfully loaded:", recipes);
+        // console.log("Recipes data array successfully loaded:", recipes);
 
         // Start the initial card creation display process on page load
-        // 🌟 Crucial: We pass 'recipes' data AND 'showHere' container destination!
         displayItems(recipes, showHere);
 
     } catch (error) {

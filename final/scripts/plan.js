@@ -9,7 +9,6 @@ let recipes = [];
 // check the localStorage to see which recipes are selected
 let storedData = localStorage.getItem("selected-ls") || "[]";
 let selectedList = JSON.parse(storedData)
-// listHere.textContent = storedData
 
 // get the recipe data
 async function getRecipeData() {
