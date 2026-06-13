@@ -142,6 +142,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-height: 80vh;
 }
 
 main div {
@@ -348,7 +349,6 @@ form input[type=submit] {
 #showHere {
     display: grid;
     grid-template-columns: 1fr;
-    /* this is the solution to Lighthouse performance problems with the footer jumping, where a min-height also causes problems */
     content-visibility: auto;
     contain-intrinsic-size: auto 800px;
 }
@@ -366,7 +366,11 @@ form input[type=submit] {
 #showHere img {
     display: block;
     width: 200px;
-    height: 140px;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 200 / 140;
+    /* this is important to tell the browser the mathmatical shape to save space for to avoid layout shifts */
+    object-fit: cover;
     margin: 10px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
