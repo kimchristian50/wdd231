@@ -348,8 +348,9 @@ form input[type=submit] {
 #showHere {
     display: grid;
     grid-template-columns: 1fr;
-    min-height: 800px
-        /* reserves space so the footer doesn't jump on load */
+    /* this is the solution to Lighthouse performance problems with the footer jumping, where a min-height also causes problems */
+    content-visibility: auto;
+    contain-intrinsic-size: auto 800px;
 }
 
 #showHere div {
@@ -381,8 +382,10 @@ form input[type=submit] {
 #listHere {
     display: flex;
     flex-direction: column;
-    min-height: 800px;
+    /* min-height: 800px; */
     /* this gives the browser a minimum height to reduce layout shift when loading */
+    content-visibility: auto;
+    contain-intrinsic-size: auto 800px;
 }
 
 #listHere div {
