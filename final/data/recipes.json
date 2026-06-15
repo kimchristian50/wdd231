@@ -514,5 +514,68 @@
             "pasta",
             "main dish"
         ]
+    },
+    {
+        "number": "18",
+        "name": "Miso Ground Chicken with Rice and Scallions",
+        "ingredients": [
+            "1 tablespoon soy sauce",
+            "1 tablespoon mirin",
+            "2 teaspoons white sugar",
+            "1 tablespoon neutral oil",
+            "1 pound ground chicken or pork",
+            "2 teaspoons finely grated fresh ginger",
+            "1-1 1/2 teaspoons red miso",
+            "1 teaspoon toasted sesame oil",
+            "Kosher salt and ground black pepper",
+            "about 6 cups cooked short-grain rice",
+            "4 scallions, thinly sliced"
+        ],
+        "instructions": [
+            "In a small bowl, stir the soy sauce, mirin and sugar until the sugar dissolves. In a 12-inch skillet over medium, heat the oil until shimmering. Add the chicken; cook, breaking the meat into small chunks, until no longer pink, about 5 minutes. Pour off and discard all but 1 tablespoon fat.",
+            "Add the ginger, then cook, stirring, until fragrant, about 1 minute. Stir in the soy mixture and bring to a simmer; cook, stirring, until the skillet is almost dry, about 2 minutes. Off heat, stir in the miso and sesame oil. Taste and season with salt and pepper. Portion the rice into individual bowls, top with the chicken mixture and sprinkle with the scallions.",
+            "Tip: Don’t add salt. Both soy sauce and miso are high in sodium, so additional salt may not be required. Taste the mixture at the very end, then assess if you’d like more seasoning.",
+            "Note: Japanese niku miso is a simple mixture of ground meat cooked with miso, soy sauce and a few other basic ingredients from the Japanese pantry. Its savory-sweet flavor tends to be intense and concentrated, as niku miso is meant to be eaten with rice or noodles. This recipe is an adaptation of a couple versions we learned in Japan; we chose to use ground chicken to keep the dish on the lighter side, but pork works well, too. We prefer bolder, saltier red miso, but if you’ve only got white miso, it works, too. Serve on freshly cooked short-grain rice for a fast, easy dinner that requires almost no knifework."
+        ],
+        "image": "images/miso-chicken.webp",
+        "location": "https://www.177milkstreet.com/recipes/miso-ground-chicken-rice-scallions",
+        "categories": [
+            "chicken",
+            "main dish",
+            "Asian"
+        ]
+    },
+    {
+        "number": "19",
+        "name": "Cold Peanut Ginger Noodles",
+        "ingredients": [
+            "8 ounces Chinese noodles",
+            "1/2 cup crunchy peanut butter",
+            "2 tablespoons soy sauce",
+            "1 to 2 tablespoons chile crisp (or to taste)",
+            "1 teaspoon sesame oil",
+            "1 teaspoon finely grated fresh ginger",
+            "1 medium cucumber, halved and sliced into 1/4 inch pieces",
+            "3 scallions, thinly sliced",
+            "1 tablespoon crystallized ginger, finely chopped",
+            "2 teaspoons lime juice (freshly squeezed)",
+            "roasted peanuts, chopped, for serving",
+            "chopped cilantro or basil (optional) for serving"
+        ],
+        "instructions": [
+            "Cook the noodles: Bring a large pot of salted water to a boil. Cook the noodles according to the package instructions until they are tender but still have a slight bite. Drain the noodles, reserving ⅔ cup of the starchy pasta water, and set aside.",
+            "Mix the dressing: In a large serving bowl, whisk together the peanut butter, soy sauce, chile crisp, sesame oil, and grated fresh ginger. Slowly whisk in enough of the warm reserved pasta water to create a smooth, loose dressing.",
+            "Assemble: Place the cucumber slices on top of the dressing, but do not mix them in yet. Add the warm drained noodles, scallions, crystallized ginger, and lime juice to the bowl. Toss everything together vigorously until the noodles are fully coated and glossy, adding a bit more pasta water if the dressing is too thick.",
+            "Serve: Taste and adjust with more soy sauce, lime juice, or chile crisp if needed. Top with the chopped cilantro, peanuts, and extra crystallized ginger. Serve immediately, or chill in the fridge for a few hours.",
+            "Note: This is a simple, streamlined version of the classic cold noodle dish. A combination of crunchy peanut butter and sesame oil gives the dressing an earthy nuttiness, which contrasts with the heat of chile crisp and tanginess of lime juice. But the real draw is a sprinkling of chopped crystallized ginger, which adds sweet-spicy chewiness amid the noodles and cucumbers. You can make this a few days in advance: It holds up very well in the fridge. Just toss well before serving since the dressing tends to pool at the bottom of the container."
+        ],
+        "image": "images/sesame-ginger-noodles.webp",
+        "location": "NYT recipe I found elsewhere online",
+        "categories": [
+            "pasta",
+            "Asian",
+            "main dish",
+            "side dish"
+        ]
     }
 ]
