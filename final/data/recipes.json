@@ -577,5 +577,93 @@
             "main dish",
             "side dish"
         ]
+    },
+    {
+        "number": "20",
+        "name": "Blueberry Biscuits",
+        "ingredients": [
+            "11 tablespoons unsalte butter - 1 tablespoon melted, 10 tablespoons cut into 1/2 inch pieces and chilled",
+            "3 cups all-purpose flour",
+            "1/2 cup sugar",
+            "2 teaspooons baking powder",
+            "1 1/4 teaspoons table salt",
+            "7 1/2 ounces blueberries",
+            "1 2/3 cups buttermilk, chilled",
+            "2 tablespoons unsalted butter",
+            "1 tablespoon honey",
+            "pinch salt"
+        ],
+        "instructions": [
+            "Adjust oven rack to middle position and heat oven to 400 degrees. Brush bottom and sides of 8-inch square baking pan with melted butter.",
+            "Whisk flour, sugar, baking powder, baking soda, and salt together in large bowl. Add chilled butter to flour mixture and smash butter between your fingertips into flat, irregular pieces. Add blueberries and toss with flour mixture. Gently stir in buttermilk until no dry pockets of flour remain.",
+            "Using rubber spatula, transfer dough to prepared pan and spread into even layer and into corners of pan. Using bench scraper sprayed with vegetable oil spray, cut dough into 9 equal squares (2 cuts by 2 cuts), but do not separate. Bake until browned on top and paring knife inserted into center biscuit comes out clean, 40 to 45 minutes.",
+            " For the honey butter: Meanwhile, combine butter, honey, and salt in small bowl and microwave until butter is melted, about 30 seconds. Stir to combine; set aside.",
+            " Remove pan from oven and let biscuits cool in pan for 5 minutes. Turn biscuits out onto baking sheet, then reinvert biscuits onto wire rack. Brush tops of biscuits with honey butter (use all of it). Let cool for 10 minutes. Using serrated knife, cut biscuits along scored marks and serve warm."
+        ],
+        "image": "images/blueberry-biscuits.webp",
+        "location": "https://www.americastestkitchen.com/recipes/13791-blueberry-biscuits",
+        "categories": [
+            "biscuit",
+            "breakfast"
+        ]
+    },
+    {
+        "number": "21",
+        "name": "Apple Jelly",
+        "ingredients": [
+            "8 pounds (3.75kg) apples",
+            "10 cups (2.25L) water",
+            "6 cups (1,2kg) sugar",
+            "1/4 cup (60ml) freshly squeezed lemon juice"
+        ],
+        "instructions": [
+            "Rinse the apples and cut them coarsely into chunks, then put them and the cores and seeds, into a very large stockpot.",
+            "Add the water, cover, and bring to a boil. When bubbling, reduce the heat a bit, leave the lid askew, and cook for 20 to 30 minutes, until the apples are tender and cooked through.",
+            "Line a mesh colander with a piece of muslin cloth or a few folds of cheesecloth (or use a jelly bag and stand) and set it over a deep bowl, then ladle the apples and the liquid into the colanders. (I use two lined colanders since it was quite a bit of apples.)",
+            "Let stand or at least 3 hours (but you'll get more juice if you let the apples drain around ~8 hours), and during that time, no matter how tempting it looks, do not press down at any time on the apples to extract more juice or the jelly will get cloudy.",
+            "The next day, measure out the juice. You should have about 8 cups (2L) but may get a little more. Pour the juice into a large, non-reactive pot fitted with a candy thermometer, add the sugar and lemon juice, and bring to a boil. During cooking, as any white foam forms on the surface while the jelly is cooking, gently skim it off with a ladle. (See Note at the end of the recipe for some idea about repurposing the apples and the foam.)",
+            "Cook until the temperature reaches 220ºF (104ºC). At that point, turn off the heat and begin testing the jelly on a chilled plate in the freezer, using the method mentioned in the headnote. When it wrinkles and holds its shape, it’s done. If not, continue to cook and re-test it at intervals. This batch set at 230ºF (110ºC).",
+            "Remove from heat and ladle into clean jars, then cap tightly.",
+            "Note: While some sources say to National Center for Food Preservation cook the apple jelly to 220ºF (104ºC), every time I've made this, it jelled at around 230ºF (110ºC). So it’s best to use a thermometer but also to test your jelly by dropping a dab on a chilled plate, putting it in the freezer for a few minutes, then checking to see if the mixture has jelled by nudging it and seeing if it mounds and wrinkles, as shown in the post. If you don’t have a candy thermometer, you can use the nudge method to test your jelly. One pound (450g) of apples cooked will yield about 1 cup (250ml) strained juice from the cooked apples. So if you have fewer apples, or you get a different yield (since all apples are different), you can use that as a guideline and add 3/4 cup (150g) sugar and 1 1/2 teaspoons of lemon juice per cup of strained apple juice. You can easily halve this recipe, too. Note that in step #3 depending on the size of your strainer or colander, you may need to use two, as I do. One tip is when putting the apples in the strainers if you can't get them all in, after filling them up, let the mixture sit 5 to 10 minutes; it'll settle down and compress, and you should be able to add the rest after that.",
+            "Any foam scraped off the top of the jelly while cooking can be refrigerated or frozen, and added to your next batch of jam. It's especially great used in jams made with low-pectin fruit, such as strawberries, apricots, peaches, pineapple, or cherries."
+        ],
+        "image": "images/apple-jelly.webp",
+        "location": "https://www.davidlebovitz.com/apple-jelly-jam-recipe/",
+        "categories": [
+            "jams and jellies",
+            "breakfast"
+        ]
+    },
+    {
+        "number": "22",
+        "name": "Apple Granola",
+        "ingredients": [
+            "5 cups (450g) multi-grain flakes or old-fashioned rolled oats",
+            "3 cups (375g) almonds, coarsely chopped",
+            "1 cup (125g) sunflower seeds",
+            "3/4 cup (100g) untoasted sesame seeds",
+            "1/2 cup (100g) packed light brown sugar",
+            "2 teaspoons ground cinnamon",
+            "1 teaspoon dried ground ginger",
+            "1 teaspoon sea salt",
+            "3/4 cup (180g) unsweetened applesauce, or another unsweetened fruit puree",
+            "1/3 cup (100g) rice syrup or corn syrup (use a little less if using corn syrup)",
+            "1/4 cup (60g) honey",
+            "2 tablespoons vegetable oil"
+        ],
+        "instructions": [
+            "Preheat the oven to 300ºF (150ºC).",
+            "In a very large bowl, mix together the flaked grains or oats, almonds, sunflower and sesame seeds, brown sugar, cinnamon, ginger, and salt.",
+            "In a small saucepan, warm the fruit puree with the rice syrup, honey, and oil.",
+            "Mix the fruit mixture into the dry ingredients until thoroughly dispersed, then divide and spread the mixture evenly on two baking sheets. (If you have ones with sides, often called jelly-roll pans, use them.)",
+            "Bake the granola, stirring every ten minutes, until the granola is deep golden brown between 30 and 40 minutes. Do start checking for doneness a bit before the 30 minute mark. I've found that sometimes the granola cooks more quickly than 30 minutes, but generally takes between 30 and 40 minutes.",
+            "Remove from oven, then cool completely.",
+            "Store the granola in a large, airtight container. It will keep for up to one month."
+        ],
+        "image": "images/apple-granola.webp",
+        "location": "https://www.davidlebovitz.com/granola-recipe/",
+        "categories": [
+            "breakfast"
+        ]
     }
 ]
