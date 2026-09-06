@@ -665,5 +665,43 @@
         "categories": [
             "breakfast"
         ]
+    },
+    {
+        "number": "23",
+        "name": "Pastéis de Nata with Lemon and Cinnamon (Portuguese Custard Tarts with Lemon and Cinnamon)",
+        "ingredients": [
+            "1 1/4 cups all-purpose flour",
+            "1/2 teaspoon salt",
+            "15 tablespoons unsalted butter, cut into 1/2 inch pieces and softened",
+            "1 1/4 cups whole milk, divided",
+            "3 tablespoons all-purpose flour",
+            "3/4 teaspoon table salt",
+            "6 large egg yolks, lightly beaten",
+            "1 1/4 cup granulated sugar",
+            "1/2 cup water",
+            "2 3-inch strips lemon zest",
+            "1 cinnamon stick"
+        ],
+        "instructions": [
+            "For the dough: Whisk 1¼ cups (6¼ ounces) all-purpose flour and ½ teaspoon table salt together in bowl of stand mixer. Fit mixer with dough hook; add ½ cup water; and mix on low speed until cohesive dough forms, 2 to 3 minutes, scraping down bowl as needed. Transfer dough to liberally floured counter. Pat dough into 4-inch square. Lightly flour top of dough, cover with plastic wrap, and let rest at room temperature for 15 minutes.",
+            "Roll dough into 15 by 13-inch rectangle with short side parallel to counter’s edge, using bench scraper to release dough and re-flouring counter as needed. Brush excess flour from top of dough. Scatter 5 tablespoons unsalted butter, cut into ½-inch pieces and softened, crosswise over center third of dough. Using small offset spatula, spread butter evenly into 5 by 12-inch rectangle, leaving ½-inch border on each side.",
+            "Fold top third of dough over butter layer, then brush away excess flour from folded portion. Fold bottom third of dough over top third to create 5 by 13-inch rectangle, and brush away excess flour.",
+            "Rotate dough 90 degrees. Re-flour counter, and repeat rolling dough into 15 by 13-inch rectangle, spreading butter, folding, and rotating dough twice more using remaining 10 tablespoons butter.",
+            "Line rimmed baking sheet with parchment paper. Roll dough into 15 by 13-inch rectangle with short side parallel to counter edge and brush excess flour from dough. Using your moistened finger or pastry brush, brush top edge of dough lightly with water. Starting at short side, roll dough away from you into tight log and pinch seam to seal. Transfer log to prepared sheet, seam side down; cover loosely with plastic wrap, and refrigerate until firm, at least 1 hour or up to 12 hours.",
+            "Spray 12-cup muffin tin with vegetable oil spray. Using sharp knife, trim ends of dough log to create 12-inch log. Cut log into 12 equal pieces, and place 1 piece into each muffin cup, cut side up.",
+            "Using your moistened fingers, press dough pieces evenly into bottoms and up sides of muffin cups until dough just reaches tops of cups, taking care to press dough evenly into corners and avoid tearing. (If dough is very cold, allow pieces to sit in cups at room temperature for 5 to 10 minutes until dough can be pressed without cracking around edges.) Cover tin with plastic and refrigerate until dough is well chilled, at least 1 hour or up to 12 hours.",
+            "For the custard: Whisk ¼ cup whole milk, 3 tablespoons flour, and ¾ teaspoon salt in large bowl until smooth. Whisk 6 lightly beaten large egg yolks in second large bowl until smooth. Set fine-mesh strainer over 4-cup liquid measuring cup.",
+            "Combine 1¼ cup (8¾ ounces) granulated sugar, ½ cup water, and remaining 1 cup milk in medium saucepan and bring to simmer over medium-high heat. Cook, stirring occasionally, until sugar is dissolved, about 2 minutes. Slowly whisk hot milk mixture into flour mixture until smooth. Gently whisk warm flour mixture into egg yolks until evenly combined. Strain mixture through prepared strainer into measuring cup; discard solids. (Custard will be thin.) Add 2 (3-inch) strips lemon zest and 1 cinnamon stick to custard, then let custard sit at room temperature for 1 hour, or refrigerate for up to 12 hours; discard zest and cinnamon.",
+            "One hour before baking, adjust oven rack to upper-middle position, place baking stone on rack, and heat oven to 450 degrees. (If custard was refrigerated, let it sit at room temp while oven is preheating.) Just before baking, whisk custard to recombine. Divide custard evenly among dough cups in muffin tin, filling to just below rim and being careful not to overfill. (You may have extra custard; this is OK.) Bake until custard is puffed and spotty brown on most tarts and dough is deep golden brown and crisp around edges, 27 to 30 minutes.",
+            "Let tarts cool in muffin tin on wire rack for 5 minutes. Using small spatula, transfer tarts to wire rack and let cool for at least 30 minutes. Dust tops of tarts lightly with confectioners’ sugar and ground cinnamon, if desired. Serve warm or at room temperature. (To rewarm tarts, bake on rimmed baking sheet on middle rack of 350-degree oven for 5 to 7 minutes.)",
+            "Notes: The softened butter called for here should be easily spreadable (about 72 degrees) but not warm or melted. A baking steel can be used in place of the stone, but lower the baking range to 25 to 27 minutes. You can bake these tarts in the traditional pastry cups for pastéis, available in Portuguese grocery stores and online, instead of in a muffin tin. You will need sixteen 3-ounce cups, measuring approximately 1 inch tall, 1¾ inches in diameter along the bottom, and about 3 inches across the top. If using the traditional cups, cut the 12-inch dough log into sixteen ¾-inch-thick slices, place the cups on a rimmed baking sheet, and decrease the baking time in step 10 to 21 to 25 minutes."
+        ],
+        "image": "images/pasteis-de-nata.webp",
+        "location": "https://www.americastestkitchen.com/recipes/17403-pasteis-de-nata-with-lemon-and-cinnamon-portuguese-custard-tarts-with-lemon-and-cinnamon?extcode=NSAKI26FB&utm_source=facebook&utm_medium=social&utm_content=photo&utm_campaign=recipe&fbclid=IwY2xjawUKmt9wZG9mBWV4dG4DYWVtAjEwAGJyaWQRMTNaRG1QcURBU0xLNW1WcmxzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeHW4sUw24MFysQYYnHw50BGid0j_hjoR7xEBO55z-r6RYYKL6rcQbRDhHoyY_aem_6zJ5F3XQTbPErpEQMYz-8A",
+        "categories": [
+            "breakfast",
+            "dessert",
+            "pastry"
+        ]
     }
 ]
