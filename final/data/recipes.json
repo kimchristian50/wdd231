@@ -703,5 +703,35 @@
             "dessert",
             "pastry"
         ]
+    },
+    {
+        "number": "24",
+        "name": "Pozole Rojo with Chicken",
+        "ingredients": [
+            "1 tablespoon vegetable oil",
+            "1 medium white onion, chopped",
+            "6 medium garlic cloves, minced",
+            "3 tablespoons chili powder",
+            "2 teaspoons ground cumin",
+            "14 1/2 ounce can diced fire-roasted tomatoes",
+            "2 quarts chicken broth",
+            "1 1/2 pounds boneless, skinless chicken thighs",
+            "29 ounce can hominy, drained and rinsed",
+            "1/2 cup chopped cilantro",
+            "3 tablespoons lime juice",
+            "tortilla chips to serve",
+            "kosher salt"
+        ],
+        "instructions": [
+            "Step 1: In a large Dutch oven over medium-high, heat the oil until shimmering. Add the onion and cook until lightly browned, about 5 minutes. Add the garlic, ancho powder and cumin, then cook, stirring constantly, until fragrant, about 30 seconds.",
+            "Add the tomatoes and cook, stirring, until most of the liquid has evaporated, 3 to 5 minutes. Add the broth and bring to a simmer. Stir in the chicken and hominy, then bring to a simmer. Reduce to medium, cover and cook until the chicken is opaque throughout, about 20 minutes.",
+            "Step 2: Transfer the chicken to medium bowl. Cover the pot and reduce to low to keep hot. Using 2 forks, shred the chicken into bite-size pieces. Stir the chicken back into the pot and cook until heated through, 2 to 3 minutes. Off heat, stir in the cilantro and lime juice. Taste and season with salt."
+        ],
+        "image": "images/chicken-posole.webp",
+        "location": "https://www.177milkstreet.com/recipes/pozole-rojo-with-chicken",
+        "categories": [
+            "main dish",
+            "soup"
+        ]
     }
 ]
