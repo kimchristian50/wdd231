@@ -733,5 +733,34 @@
             "main dish",
             "soup"
         ]
+    },
+    {
+        "number": "25",
+        "name": "Two-Cheese Orzo with Cauliflower",
+        "ingredients": [
+            "2 tablespoons extra-virgin olive oil",
+            "1 medium shallot, minced",
+            "2 medium garlic cloves, minced",
+            "kosher salt and ground black pepper",
+            "1 2-pound head cauliflower, trimmed and cut into 1/2-inch pieces",
+            "8 ounces (1 1/4 cups) orzo",
+            "3 3/4 cups chicken broth, divided",
+            "2 ounces sharp cheddar cheese, shredded (1 cup)",
+            "2 teaspoons grated lemon zest, plus 2 tablespoons lemon juice",
+            "1 ounce parmesan cheese, finely grated (1/2 cup), plus more to serve",
+            "1/2 cup lightly packed fresh flat-leaf parsley, roughly chopped"
+        ],
+        "instructions": [
+            "In a large Dutch oven over medium, heat the oil until shimmering. Add the shallot, garlic and ½ teaspoon salt; cook, stirring, until starting to brown, about 1 minute. Add the cauliflower and cook, stirring, until lightly browned in spots, 4 to 5 minutes. Add the orzo and cook, stirring, until beginning to brown, about 2 minutes. Stir in 2 cups of the broth and ½ teaspoon pepper; bring to a simmer over medium-high. Cook, uncovered and stirring, until the liquid is absorbed, about 5 minutes. Add 1½ cups of the remaining broth and simmer, stirring, until the liquid is again absorbed, the orzo is al dente and the cauliflower is tender-crisp, about 5 minutes.",
+            "Stir in the remaining ¼ cup broth. Add the cheddar; stir until melted. Remove the pot from the heat. If the “orzotto” is dry and thick, stir in additional broth a few tablespoons at a time to reach the desired consistency. Stir in the lemon zest and juice, Parmesan and half of the parsley. Taste and season with salt and pepper. Serve sprinkled with the remaining parsley and additional Parmesan.",
+            "Notes: This “orzotto” has a creaminess similar to classic risotto thanks to the starchiness of the orzo pasta, but it’s easier and faster to prepare. A combination of melty cheddar cheese and nutty Parmesan lends richness, while cauliflower brings subtly sweet notes and makes the “orzotto” more substantial. Chicken broth can be used in place of the vegetable broth. Herbs other than parsley work nicely, too—chives or dill are particularly good. This is a terrific side to a simple roasted chicken, but it’s also hearty enough to be a meat-free main.",
+            "Don’t be shy about stirring after adding the broth. Frequent and brisk stirring helps create an especially creamy consistency. Be sure to also scrape along the bottom of the pot to ensure the mixture isn’t sticking to the bottom."
+        ],
+        "image": "images/cauliflower-orzo.webp",
+        "location": "https://www.177milkstreet.com/recipes/two-cheese-orzo-cauliflower",
+        "categories": [
+            "side dish",
+            "vegetables"
+        ]
     }
 ]
